@@ -1,2 +1,2 @@
 # Image-Segmentation
-Assignment Pattern recognetion course  that performs image segmentation, It groups similar pixels together and gives  grouped pixels same labels.
+Assignment Pattern recognition course  that performs Image segmentation, It groups similar pixels together and gives  grouped pixels same labels.
