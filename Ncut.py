@@ -6,7 +6,23 @@ import cv2
 import numpy as np
 
 class Five_N_Cut:
-
+  
+  def __init__(self):
+    self.palette = make_palette()
+    
+  def make_palette(self):
+    grey = [128 ,128, 128]
+    pink = [255, 0 ,127]
+    viola = [255, 0 ,255]
+    blue = [0, 0 ,255]
+    green = [0, 255 ,127]
+    yellow = [255, 255, 0]
+    orange = [255, 128, 0]
+    red = [255, 0, 0]
+    purple = [127, 0 ,255]
+    palette = [grey ,pink, viola ,blue ,green ,yellow, orange ,red ,purple]
+    return palette
+  
   def five_image_NC(self,image_arr): #return five resized imgs (144, 144)
     Ncut_imgs=[]
     original_imgs = []
@@ -33,13 +49,13 @@ class Five_N_Cut:
     print("Shape" ,image_in.shape)
     for i in range(labels.shape[0]):
       if labels[i]==0 :
-        image_in[i]=palette[1]
+        image_in[i]=self.palette[1]
       if labels[i]==1 :
-        image_in[i]=palette[1]
+        image_in[i]=self.palette[1]
       if labels[i]==2 :
-        image_in[i]=palette[2]
+        image_in[i]=self.palette[2]
       if labels[i]==3 :
-        image_in[i]=palette[3]
+        image_in[i]=self.palette[3]
       if labels[i]==4 :
-        image_in[i]=palette[4]
+        image_in[i]=self.palette[4]
     return image_in
