@@ -1,5 +1,6 @@
 
 from sklearn.neighbors import kneighbors_graph
+from sklearn.cluster import KMeans,spectral_clustering
 import copy
 import cv2
 import numpy as np
