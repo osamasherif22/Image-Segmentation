@@ -7,7 +7,7 @@ import numpy as np
 
 class Five_N_Cut:
 
-  def five_image_NC(image_arr): #return five resized imgs (144, 144)
+  def five_image_NC(self,image_arr): #return five resized imgs (144, 144)
     Ncut_imgs=[]
     original_imgs = []
     for i in range (5):
@@ -20,16 +20,16 @@ class Five_N_Cut:
       Ncut_imgs.append(np.float32(res.reshape(-1, res.shape[-1])))
     return np.array(Ncut_imgs), np.array(original_imgs)
 
-  def generate_simlarity(image):
+  def generate_simlarity(self,image):
     np.set_printoptions(threshold=20736)
     graph= kneighbors_graph(image, 5 , mode='connectivity', include_self=False)
     return graph
 
-  def clustering(graph):
+  def clustering(self,graph):
     labels = spectral_clustering(graph, n_clusters=5, eigen_solver='arpack') #from 0:4
     return labels
 
-  def cloroing_img(image_in,labels):
+  def cloroing_img(self,image_in,labels):
     print("Shape" ,image_in.shape)
     for i in range(labels.shape[0]):
       if labels[i]==0 :
