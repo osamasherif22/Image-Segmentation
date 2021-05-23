@@ -7,9 +7,6 @@ import numpy as np
 
 class Five_N_Cut:
   
-  def make_palette(self):
-    
-  
   def __init__(self):
     grey = [128 ,128, 128]
     pink = [255, 0 ,127]
