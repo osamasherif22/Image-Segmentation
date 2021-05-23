@@ -8,6 +8,9 @@ import numpy as np
 class Five_N_Cut:
   
   def make_palette(self):
+    
+  
+  def __init__(self):
     grey = [128 ,128, 128]
     pink = [255, 0 ,127]
     viola = [255, 0 ,255]
@@ -17,11 +20,7 @@ class Five_N_Cut:
     orange = [255, 128, 0]
     red = [255, 0, 0]
     purple = [127, 0 ,255]
-    palette = [grey ,pink, viola ,blue ,green ,yellow, orange ,red ,purple]
-    return palette
-  
-  def __init__(self):
-    self.palette = make_palette()
+    self.palette = [grey ,pink, viola ,blue ,green ,yellow, orange ,red ,purple]  
   
   def five_image_NC(self,image_arr): #return five resized imgs (144, 144)
     Ncut_imgs=[]
