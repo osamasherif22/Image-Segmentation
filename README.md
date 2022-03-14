@@ -22,5 +22,15 @@ We will use Berkeley Segmentation Benchmark.
 - The dataset has 500 images: 200 image for trainning , 200 for validation and 100 for test. 
 - The data is available at the following **[link](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz)**. 
 
+### Visualize the image and the ground truth segmentation
+Image             |  Ground Truth 
+:-------------------------:|:-------------------------:
+![This is an image](https://github.com/osamasherif22/Image-Segmentation/blob/master/Results-pics/2.PNG)  |  ![This is an image](https://github.com/osamasherif22/Image-Segmentation/blob/master/Results-pics/1.PNG)
+
+
 ## Results
-- 
+Image             |  Ground Truth | Segmentation Result 
+:-------------------------:|:-------------------------: | :-------------------------: 
+![This is an image](https://github.com/osamasherif22/Image-Segmentation/blob/master/Results-pics/3.PNG)  |  ![This is an image](https://github.com/osamasherif22/Image-Segmentation/blob/master/Results-pics/5.PNG) | ![This is an image](https://github.com/osamasherif22/Image-Segmentation/blob/master/Results-pics/4.PNG)
+
+
