@@ -34,3 +34,11 @@ Image             |  Ground Truth | Segmentation Result
 ![This is an image](https://github.com/osamasherif22/Image-Segmentation/blob/master/Results-pics/3.PNG)  |  ![This is an image](https://github.com/osamasherif22/Image-Segmentation/blob/master/Results-pics/5.PNG) | ![This is an image](https://github.com/osamasherif22/Image-Segmentation/blob/master/Results-pics/4.PNG)
 
 
+## Authors
+- **[Moahmmed Aiman](https://github.com/MohammedAimanHESSin)**
+- **[Osama Sherif](https://github.com/osamasherif22)**
+- **[Abdulrahman Habib](https://github.com/habiib1999)**
+- **[Ahmed Ashraf](https://github.com/ashraf336)**
+
+---
+_This README made with ❤️ by [Moahmmed Aiman](https://github.com/MohammedAimanHESSin) & [Osama Sherif](https://github.com/osamasherif22)_ 
